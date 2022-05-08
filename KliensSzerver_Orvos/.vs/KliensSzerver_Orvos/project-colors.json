@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "224fa63d-e031-4027-9fc0-0b1839aa00bb": {
+      "ProjectGuid": "224fa63d-e031-4027-9fc0-0b1839aa00bb",
+      "DisplayName": "Orvos_Asszisztens_Szerver",
+      "ColorIndex": 0
+    },
+    "87432d2d-bc68-4fb3-bcc7-58b0dd761f39": {
+      "ProjectGuid": "87432d2d-bc68-4fb3-bcc7-58b0dd761f39",
+      "DisplayName": "Common_Library",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

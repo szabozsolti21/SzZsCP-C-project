@@ -1,0 +1,12 @@
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.deps.json
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\ref\Common_Library.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.pdb
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.csproj.AssemblyReference.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.AssemblyInfoInputs.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.AssemblyInfo.cs
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.csproj.CoreCompileInputs.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\ref\Common_Library.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.pdb
