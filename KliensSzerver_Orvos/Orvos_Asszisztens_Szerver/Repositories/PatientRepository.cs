@@ -1,30 +1,62 @@
 ﻿using Common_Library.Models;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json;
+using System.Linq;
 
 namespace Orvos_Asszisztens_Szerver.Repositories
 {
     public static class PatientRepository
     {
-        private const string FileName = "Patients.json";
-
-        public static IEnumerable<Patient> GetPatients()
+        public static IList<Patient> GetPatient()
         {
-            if(File.Exists(FileName))
+            using (var database = new PatientContext())
             {
-                var rawData = File.ReadAllText(FileName);
-                var patients = JsonSerializer.Deserialize<IEnumerable<Patient>>(rawData);
-                return patients;
+                var patient = database.Patient.ToList();
+                return patient;
             }
-
-            return new List<Patient>();
         }
 
-        public static void StorePatients(IEnumerable<Patient> patients)
+        public static Patient GetPatient(int id)
         {
-            var rawData = JsonSerializer.Serialize(patients);
-            File.WriteAllText(FileName, rawData);
+            using (var database = new PatientContext())
+            {
+                var patient = database.Patient.Where(p => p.Id == id).FirstOrDefault();
+                return patient;
+            }
+        }
+
+        public static void AddPatient(Patient patient)
+        {
+            using (var database = new PatientContext())
+            {
+                database.Patient.Add(patient);
+                database.SaveChanges();
+            }
+        }
+
+        public static bool UpdatePatient(Patient patient, int id)
+        {
+            using (var database = new PatientContext())
+            {
+                var dbPatient = database.Patient.Where(p => p.Id == id).FirstOrDefault();
+
+                if (dbPatient != null)
+                {
+                    database.Patient.Update(patient);
+                    database.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+        }
+
+        public static void DeletePatient(Patient patient)
+        {
+            using (var database = new PatientContext())
+            {
+                database.Patient.Remove(patient);
+                database.SaveChanges();
+            }
         }
     }
 }
