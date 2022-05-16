@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {}
+    "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
+    "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+        "projectUniqueName": "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
         "projectName": "Common_Library",
-        "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
-        "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\obj\\",
+        "projectPath": "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+        "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
+        "outputPath": "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zsote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,12 +52,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

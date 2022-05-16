@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ogv1rnDRmK3DhOCJ+EUWQp61NFOtvMgOWkRb5+HTqR3sSfT08TGGu7hkM4ueSwSKhBWrj4I0eJSG3EvjDRtdFw==",
+  "dgSpecHash": "b4EK9adqrN28PpEZFkiV4e53yMy0N+MAEdo/roOdlawkFOTVwWU3PxID4ZVA6+i9Zc6ywSAu5Z2JyYMz9o5Row==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Egyetemi\\NI\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hanko\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\hanko\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\hanko\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

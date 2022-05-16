@@ -10,88 +10,58 @@ namespace Orvos_Asszisztens_Szerver.Controllers
     [Route("api/patient")]
     public class PatientController : Controller
     {
-        [HttpGet]
-        public ActionResult<IEnumerable<Patient>> Get()
-        {
-            var patients = PatientRepository.GetPatients();
-            return Ok(patients);
-        }
-
         [HttpGet("{id}")]
         public ActionResult<Patient> Get(int id)
         {
-            var patients = PatientRepository.GetPatients();
+            var patient = PatientRepository.GetPatient(id);
 
-            var patient = patients.FirstOrDefault(x => x.Id == id);
-            if(patient != null)
+            if (patient != null)
             {
                 return Ok(patient);
             }
+            else
+            {
+                return NotFound();
+            }
 
-            return NotFound();
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody]Patient patient)
+        public ActionResult Post([FromBody] Patient patient)
         {
-            var patients = PatientRepository.GetPatients().ToList();
-
-            patient.Id = GetNewId(patients);
-
-            patients.Add(patient);
-
-            PatientRepository.StorePatients(patients);
-             
+            PatientRepository.AddPatient(patient);
             return Ok();
         }
 
-        [HttpPut]
-        public ActionResult Put([FromBody] Patient patient)
+        [HttpPut("{id}")]
+        public ActionResult Put(Patient patient, int id)
         {
-            var patients = PatientRepository.GetPatients().ToList();
-
-            var patientToUpdate = patients.FirstOrDefault(p => p.Id == patient.Id);
-
-            if(patientToUpdate != null)
+            var successful = PatientRepository.UpdatePatient(patient, id);
+            if (successful)
             {
-                patientToUpdate.Name = patient.Name;
-                patientToUpdate.Adress = patient.Adress;
-                patientToUpdate.TAJ = patient.TAJ;
-
-                PatientRepository.StorePatients(patients);
                 return Ok();
             }
-
-            return NotFound();
+            else
+            {
+                return NotFound();
+            }
         }
 
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var patients = PatientRepository.GetPatients().ToList();
+            var patient = PatientRepository.GetPatient(id);
 
-            var patientToDelete = patients.FirstOrDefault(p => p.Id == id);
-
-            if (patientToDelete != null)
+            if (patient != null)
             {
-                patients.Remove(patientToDelete);
-
-                PatientRepository.StorePatients(patients);
+                PatientRepository.DeletePatient(patient);
                 return Ok();
             }
-
-            return NotFound();
-        }
-
-        private long GetNewId(IEnumerable<Patient> patients)
-        {
-            long newId = 0;
-            foreach (var patient in patients)
+            else
             {
-                if (newId < patient.Id) newId = patient.Id;
+                return NotFound();
             }
 
-            return newId+1;
         }
     }
 }
