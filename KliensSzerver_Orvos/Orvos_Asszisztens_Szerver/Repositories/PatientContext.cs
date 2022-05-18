@@ -10,7 +10,7 @@ namespace Orvos_Asszisztens_Szerver.Repositories
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\mssqllocaldb;Database=ServerDb;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\mssqllocaldb;Database=PatientsDB;Integrated Security=True;");
         }
     }
 }
