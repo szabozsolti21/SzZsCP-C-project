@@ -10,6 +10,14 @@ namespace Orvos_Asszisztens_Szerver.Controllers
     [Route("api/patient")]
     public class PatientController : Controller
     {
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Patient>> Get()
+        {
+            var patients = PatientRepository.GetPatients();
+            return Ok(patients);
+        }
+
         [HttpGet("{id}")]
         public ActionResult<Patient> Get(int id)
         {
@@ -36,15 +44,19 @@ namespace Orvos_Asszisztens_Szerver.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(Patient patient, int id)
         {
-            var successful = PatientRepository.UpdatePatient(patient, id);
-            if (successful)
+
+            var DbPatient = PatientRepository.GetPatient(id);
+
+            if(DbPatient != null)
             {
+                PatientRepository.UpdatePatient(patient);
                 return Ok();
             }
             else
             {
                 return NotFound();
             }
+            
         }
 
         [HttpDelete("{id}")]

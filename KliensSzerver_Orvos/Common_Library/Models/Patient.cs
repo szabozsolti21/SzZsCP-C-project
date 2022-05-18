@@ -25,11 +25,11 @@ namespace Common_Library.Models
         public string TAJ { get; set; }
 
         [Required]
-        public string Compaint { get; set; }
+        public string Complaint { get; set; }
 
         public override string ToString()
         {
-            return $"Név: {Name} Cím: {Adress} TAJ: {TAJ} Panasz: {Compaint}";
+            return $"Név: {Name} Cím: {Adress} TAJ: {TAJ} Panasz: {Complaint}";
         }
 
     }
