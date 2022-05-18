@@ -7,12 +7,13 @@ namespace Orvos_Asszisztens_Szerver.Repositories
 {
     public static class PatientRepository
     {
-        public static IList<Patient> GetPatient()
+        public static IList<Patient> GetPatients()
         {
             using (var database = new PatientContext())
             {
-                var patient = database.Patient.ToList();
-                return patient;
+                var patients = database.Patient.ToList();
+
+                return patients;
             }
         }
 
@@ -34,19 +35,13 @@ namespace Orvos_Asszisztens_Szerver.Repositories
             }
         }
 
-        public static bool UpdatePatient(Patient patient, int id)
+        public static void UpdatePatient(Patient patient)
         {
             using (var database = new PatientContext())
             {
-                var dbPatient = database.Patient.Where(p => p.Id == id).FirstOrDefault();
-
-                if (dbPatient != null)
-                {
                     database.Patient.Update(patient);
-                    database.SaveChanges();
-                    return true;
-                }
-                return false;
+
+                    database.SaveChanges();    
             }
         }
 
