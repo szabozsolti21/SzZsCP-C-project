@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj": {}
+    "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj": {
+    "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
+        "projectUniqueName": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
         "projectName": "AsszisztensKliens",
-        "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
-        "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\obj\\",
+        "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
+        "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
+        "outputPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zsote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +30,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
+                "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +46,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +70,64 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+        "projectName": "Common_Library",
+        "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+        "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
+        "outputPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

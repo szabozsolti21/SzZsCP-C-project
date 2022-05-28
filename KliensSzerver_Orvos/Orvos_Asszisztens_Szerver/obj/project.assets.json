@@ -5764,19 +5764,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zsote\\.nuget\\packages\\": {}
+    "C:\\Users\\hanko\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\Orvos_Asszisztens_Szerver.csproj",
+      "projectUniqueName": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\Orvos_Asszisztens_Szerver.csproj",
       "projectName": "Orvos_Asszisztens_Szerver",
-      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\Orvos_Asszisztens_Szerver.csproj",
-      "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\obj\\",
+      "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\Orvos_Asszisztens_Szerver.csproj",
+      "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
+      "outputPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Asszisztens_Szerver\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zsote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5790,8 +5794,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
-              "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj"
+            "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj": {
+              "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj"
             }
           }
         }
@@ -5839,7 +5843,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
