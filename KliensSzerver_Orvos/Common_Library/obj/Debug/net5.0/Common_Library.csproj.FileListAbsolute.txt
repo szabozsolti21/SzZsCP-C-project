@@ -22,3 +22,15 @@ F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debu
 F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\refint\Common_Library.dll
 F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.pdb
 F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\ref\Common_Library.dll
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.deps.json
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.dll
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\bin\Debug\net5.0\Common_Library.pdb
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.csproj.AssemblyReference.cache
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.GeneratedMSBuildEditorConfig.editorconfig
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.AssemblyInfoInputs.cache
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.AssemblyInfo.cs
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.csproj.CoreCompileInputs.cache
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.dll
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\refint\Common_Library.dll
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\Common_Library.pdb
+F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\Common_Library\obj\Debug\net5.0\ref\Common_Library.dll

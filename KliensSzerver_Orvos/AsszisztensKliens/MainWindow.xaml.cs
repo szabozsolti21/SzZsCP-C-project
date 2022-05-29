@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AsszisztensKliens.DataProviders;
+using Common_Library.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,37 @@ namespace AsszisztensKliens
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs args)
+        {
+            var selectedPatient = PeopleListBox.SelectedItem as Patient;
+
+            if(selectedPatient != null)
+            {
+                var window = new PatientWindow(selectedPatient);
+                if(window.ShowDialog() ?? false)
+                {
+                    UpdatePeopleListBox();
+                }
+
+                PeopleListBox.UnselectAll();
+            }
+        }
+
+        private void AddPatient_Click(object sender, RoutedEventArgs args)
+        {
+            var window = new PatientWindow(null);
+            if (window.ShowDialog() ?? false)
+            {
+                UpdatePeopleListBox();
+            }
+        }
+
+        private void UpdatePeopleListBox()
+        {
+            var people = PatientDataProvider.GetPeople().ToList();
+            PeopleListBox.ItemsSource = people;
         }
     }
 }
