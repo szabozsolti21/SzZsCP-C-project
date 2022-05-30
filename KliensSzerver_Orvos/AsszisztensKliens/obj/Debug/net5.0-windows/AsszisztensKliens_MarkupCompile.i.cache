@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\
 AsszisztensKliens
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\App.xaml
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\App.xaml
 22116246467
 
 71985125887
-195108726342
+195259329165
 MainWindow.xaml;PatientWindow.xaml;
 
-False
+True
 

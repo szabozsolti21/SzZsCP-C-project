@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj": {}
+    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj": {}
   },
   "projects": {
-    "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj": {
+    "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj",
+        "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj",
         "projectName": "OrvosKliens",
-        "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj",
-        "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
-        "outputPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\obj\\",
+        "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\OrvosKliens.csproj",
+        "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\OrvosKliens\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zsote\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

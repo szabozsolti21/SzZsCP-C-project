@@ -21,16 +21,22 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
 
-            <Label Grid.Column="0" Grid.Row="0" Content="First Name" Margin="10"/>
-            <TextBox x:Name="FirstNameTextBox" Grid.Column="1" Grid.Row="0" Margin="10"/>
+            <Label Grid.Column="0" Grid.Row="0" Content="Name" Margin="10"/>
+            <TextBox x:Name="NameTextBox" Grid.Column="1" Grid.Row="0" Margin="10"/>
 
-            <Label Grid.Column="0" Grid.Row="1" Content="Last Name" Margin="10"/>
-            <TextBox x:Name="LastNameTextBox" Grid.Column="1" Grid.Row="1" Margin="10"/>
+            <Label Grid.Column="0" Grid.Row="1" Content="Adress" Margin="10"/>
+            <TextBox x:Name="AdressTextBox" Grid.Column="1" Grid.Row="1" Margin="10"/>
 
-            <Label Grid.Column="0" Grid.Row="2" Content="First Name" Margin="10"/>
-            <DatePicker x:Name="DateOfBirthPicker" Grid.Column="1" Grid.Row="2" Margin="10"/>
+            <Label Grid.Column="0" Grid.Row="2" Content="TAJ" Margin="10"/>
+            <TextBox x:Name="TAJTextBox" Grid.Column="1" Grid.Row="2" Margin="10"/>
+
+            <Label Grid.Column="0" Grid.Row="3" Content="Complaint" Margin="10"/>
+            <TextBox x:Name="ComplaintTextBox" Grid.Column="1" Grid.Row="3" Margin="10" Height="60px"/>
         </Grid>
         
         <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Bottom">

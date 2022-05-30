@@ -12,7 +12,7 @@ namespace AsszisztensKliens.DataProviders
     internal class PatientDataProvider
     {
         private const string _url = "https://localhost:5000/api/patient";
-        public static IEnumerable<Patient> GetPeople()
+        public static IEnumerable<Patient> GetPatients()
         {
             using (var client = new HttpClient())
             {
@@ -21,8 +21,8 @@ namespace AsszisztensKliens.DataProviders
                 if (response.IsSuccessStatusCode)
                 {
                     var rawData = response.Content.ReadAsStringAsync().Result;
-                    var people = JsonConvert.DeserializeObject<IEnumerable<Patient>>(rawData);
-                    return people;
+                    var patients = JsonConvert.DeserializeObject<IEnumerable<Patient>>(rawData);
+                    return patients;
                 }
 
                 throw new InvalidOperationException(response.StatusCode.ToString());
