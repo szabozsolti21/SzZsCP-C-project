@@ -26,3 +26,31 @@ F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\o
 F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.pdb
 F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.genruntimeconfig.cache
 F:\Egyetemi\SzZsCP\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\ref\AsszisztensKliens.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.exe
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.deps.json
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.runtimeconfig.json
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.runtimeconfig.dev.json
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\ref\AsszisztensKliens.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\AsszisztensKliens.pdb
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Common_Library.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Common_Library.pdb
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.csproj.AssemblyReference.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\PatientWindow.g.cs
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens_MarkupCompile.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens_MarkupCompile.lref
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\PatientWindow.baml
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.g.resources
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.AssemblyInfoInputs.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.AssemblyInfo.cs
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.csproj.CoreCompileInputs.cache
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.csproj.CopyComplete
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\ref\AsszisztensKliens.dll
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.pdb
+C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\AsszisztensKliens.genruntimeconfig.cache

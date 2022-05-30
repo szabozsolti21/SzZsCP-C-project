@@ -13,12 +13,8 @@ namespace Common_Library.Models
         public long Id { get; set; }
 
         [Required]
-        [MaxLength(25)]
-        public string FirstName { get; set; }
-
-        [Required]
-        [MaxLength(25)]
-        public string LastName { get; set; }
+        [MaxLength(50)]
+        public string Name { get; set; }
 
         [Required]
         [MaxLength(100)]
@@ -28,14 +24,13 @@ namespace Common_Library.Models
         [MaxLength(9)]
         public string TAJ { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
 
         [Required]
         public string Complaint { get; set; }
 
         public override string ToString()
         {
-            return $"Név: {FirstName} {LastName} Cím: {Adress} TAJ: {TAJ} Panasz: {Complaint}";
+            return $"Név: {Name} Cím: {Adress} TAJ: {TAJ} Panasz: {Complaint}";
         }
 
     }

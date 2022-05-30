@@ -17,9 +17,6 @@ using System.Windows.Shapes;
 
 namespace AsszisztensKliens
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -29,17 +26,17 @@ namespace AsszisztensKliens
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs args)
         {
-            var selectedPatient = PeopleListBox.SelectedItem as Patient;
+            var selectedPatient = PatientsListBox.SelectedItem as Patient;
 
             if(selectedPatient != null)
             {
                 var window = new PatientWindow(selectedPatient);
                 if(window.ShowDialog() ?? false)
                 {
-                    UpdatePeopleListBox();
+                    UpdatePatientsListBox();
                 }
 
-                PeopleListBox.UnselectAll();
+                PatientsListBox.UnselectAll();
             }
         }
 
@@ -48,14 +45,14 @@ namespace AsszisztensKliens
             var window = new PatientWindow(null);
             if (window.ShowDialog() ?? false)
             {
-                UpdatePeopleListBox();
+                UpdatePatientsListBox();
             }
         }
 
-        private void UpdatePeopleListBox()
+        private void UpdatePatientsListBox()
         {
-            var people = PatientDataProvider.GetPeople().ToList();
-            PeopleListBox.ItemsSource = people;
+            var patients = PatientDataProvider.GetPatients().ToList();
+            PatientsListBox.ItemsSource = patients;
         }
     }
 }

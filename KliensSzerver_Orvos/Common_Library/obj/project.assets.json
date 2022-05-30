@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hanko\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\zsote\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
       "projectName": "Common_Library",
-      "projectPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
-      "packagesPath": "C:\\Users\\hanko\\.nuget\\packages\\",
-      "outputPath": "F:\\Egyetemi\\SzZsCP\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\obj\\",
+      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\Common_Library.csproj",
+      "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Common_Library\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hanko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zsote\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -31,9 +31,9 @@ namespace AsszisztensKliens
             {
                 _patient = patient;
 
-                FirstNameTextBox.Text = _patient.FirstName;
-                LastNameTextBox.Text = _patient.LastName;
-                DateOfBirthPicker.SelectedDate = _patient.DateOfBirth;
+                NameTextBox.Text = _patient.Name;
+                AdressTextBox.Text = _patient.Adress;
+                TAJTextBox.Text = _patient.TAJ;
 
                 CreateButton.Visibility = Visibility.Collapsed;
                 UpdateButton.Visibility = Visibility.Visible;
@@ -53,9 +53,10 @@ namespace AsszisztensKliens
         {
             if (ValidatePatient())
             {
-                _patient.FirstName = FirstNameTextBox.Text;
-                _patient.LastName = LastNameTextBox.Text;
-                _patient.DateOfBirth = DateOfBirthPicker.SelectedDate.Value;
+                _patient.Name = NameTextBox.Text;
+                _patient.Adress = AdressTextBox.Text;
+                _patient.TAJ = TAJTextBox.Text;
+                _patient.Complaint = ComplaintTextBox.Text;
 
                 PatientDataProvider.CreatePatient(_patient);
 
@@ -68,9 +69,11 @@ namespace AsszisztensKliens
         {
             if (ValidatePatient())
             {
-                _patient.FirstName = FirstNameTextBox.Text;
-                _patient.LastName = LastNameTextBox.Text;
-                _patient.DateOfBirth = DateOfBirthPicker.SelectedDate.Value;
+                _patient.Name = NameTextBox.Text;
+                _patient.Adress = AdressTextBox.Text;
+                _patient.TAJ = TAJTextBox.Text;
+                _patient.Complaint = ComplaintTextBox.Text;
+
 
                 PatientDataProvider.UpdatePatient(_patient);
 
@@ -92,23 +95,37 @@ namespace AsszisztensKliens
 
         private bool ValidatePatient()
         {
-            if (string.IsNullOrEmpty(FirstNameTextBox.Text))
+            if (string.IsNullOrEmpty(NameTextBox.Text))
             {
-                MessageBox.Show("First name should not be empty.");
+                MessageBox.Show("Name should not be empty.");
                 return false;
             }
 
-            if (string.IsNullOrEmpty(LastNameTextBox.Text))
+            if (string.IsNullOrEmpty(AdressTextBox.Text))
             {
-                MessageBox.Show("Last name should not be empty.");
+                MessageBox.Show("Adress should not be empty.");
                 return false;
             }
 
-            if (!DateOfBirthPicker.SelectedDate.HasValue)
+            if (string.IsNullOrEmpty(TAJTextBox.Text))
             {
-                MessageBox.Show("Please select a date of birth.");
+                MessageBox.Show("TAJ should not be empty.");
                 return false;
             }
+
+            //TAJ formátum 
+            //if (Ha TAJ formatuma nem okés okés)
+            //{
+            //    MessageBox.Show("TAJ should be 000 000 000");
+            //    return false;
+            //}
+
+            if (string.IsNullOrEmpty(ComplaintTextBox.Text))
+            {
+                MessageBox.Show("Complaint should not be empty.");
+                return false;
+            }
+
             return true;
         }
     }

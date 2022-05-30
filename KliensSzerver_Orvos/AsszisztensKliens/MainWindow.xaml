@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AsszisztensKliens"
         mc:Ignorable="d"
-        Title="Patient manager" Height="450" Width="800">
+        Title="Asszisztens kliens" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -13,9 +13,9 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="Patient" FontWeight="Bold" Margin="15,15,15,0"/>
+        <Label Grid.Row="0" Content="Patients" FontWeight="Bold" Margin="15,15,15,0"/>
 
-        <ListBox x:Name="PeopleListBox" Grid.Row="1" Margin="15" SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged"/>
+        <ListBox x:Name="PatientsListBox" Grid.Row="1" Margin="15" SelectionMode="Single" SelectionChanged="ListBox_SelectionChanged"/>
 
         <Button Grid.Row="2" Content="Add Patient" Width="100" HorizontalAlignment="Right" Margin="15,0,15,15" Click="AddPatient_Click"/>
     </Grid>
