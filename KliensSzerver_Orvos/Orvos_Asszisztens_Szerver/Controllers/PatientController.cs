@@ -19,7 +19,7 @@ namespace Orvos_Asszisztens_Szerver.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Patient> Get(int id)
+        public ActionResult<Patient> Get(long id)
         {
             var patient = PatientRepository.GetPatient(id);
 
@@ -42,25 +42,22 @@ namespace Orvos_Asszisztens_Szerver.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(Patient patient, int id)
+        public ActionResult Put(Patient patient, long id)
         {
 
-            var DbPatient = PatientRepository.GetPatient(id);
+            var dbPatient = PatientRepository.GetPatient(id);
 
-            if(DbPatient != null)
+            if(dbPatient != null)
             {
                 PatientRepository.UpdatePatient(patient);
                 return Ok();
             }
-            else
-            {
-                return NotFound();
-            }
+            return NotFound();
             
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public ActionResult Delete(long id)
         {
             var patient = PatientRepository.GetPatient(id);
 

@@ -1315,6 +1315,9 @@
         }
       },
       "Common_Library/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
         "runtime": {
           "Common_Library.dll": {}
         },

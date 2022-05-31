@@ -34,9 +34,10 @@ namespace AsszisztensKliens
                 NameTextBox.Text = _patient.Name;
                 AdressTextBox.Text = _patient.Adress;
                 TAJTextBox.Text = _patient.TAJ;
+                ComplaintTextBox.Text = _patient.Complaint;
 
                 CreateButton.Visibility = Visibility.Collapsed;
-                UpdateButton.Visibility = Visibility.Visible;
+                UpdateButton.Visibility = Visibility.Collapsed;
                 DeleteButton.Visibility = Visibility.Visible;
 
             }
@@ -57,6 +58,8 @@ namespace AsszisztensKliens
                 _patient.Adress = AdressTextBox.Text;
                 _patient.TAJ = TAJTextBox.Text;
                 _patient.Complaint = ComplaintTextBox.Text;
+                _patient.Diagnose = "Unknown";
+                _patient.TimeOfArrival = DateTime.Now;
 
                 PatientDataProvider.CreatePatient(_patient);
 
@@ -100,6 +103,13 @@ namespace AsszisztensKliens
                 MessageBox.Show("Name should not be empty.");
                 return false;
             }
+
+            //Név formátuma (nem lehet whitespace, különleges karakter
+            //if (Ha név nem okés)
+            //{
+            //    MessageBox.Show("TAJ should be 000 000 000");
+            //    return false;
+            //}
 
             if (string.IsNullOrEmpty(AdressTextBox.Text))
             {
