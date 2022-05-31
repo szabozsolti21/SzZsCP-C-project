@@ -41,6 +41,11 @@ namespace Orvos_Kliens
             }
         }
 
+        private void Reload_Click(object sender, RoutedEventArgs args)
+        {
+            UpdatePatientsListBox();
+        }
+
         private void UpdatePatientsListBox()
         {
             var patients = PatientDataProvider.GetPatients().ToList();
