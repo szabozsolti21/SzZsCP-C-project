@@ -21,16 +21,25 @@ namespace Common_Library.Models
         public string Adress { get; set; }
 
         [Required]
-        [MaxLength(9)]
+        [MaxLength(15)]
         public string TAJ { get; set; }
-
 
         [Required]
         public string Complaint { get; set; }
+        [Required]
+        public DateTime TimeOfArrival { get; set; }
+        [MaxLength(100)]
+        public string Diagnose { get; set; }
+
 
         public override string ToString()
         {
-            return $"Név: {Name} Cím: {Adress} TAJ: {TAJ} Panasz: {Complaint}";
+            return $"{Name} \n\n" +
+                   $"\tLakcím: {Adress} \n" +
+                   $"\tTAJ szám: {TAJ} \n" +
+                   $"\tPanasz: {Complaint} \n" +
+                   $"\tDiagnózis: {Diagnose} \n" +
+                   $"\tBejelentkezés ideje: {TimeOfArrival}";
         }
 
     }

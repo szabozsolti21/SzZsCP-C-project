@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orvos_Asszisztens_Szerver",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common_Library", "Common_Library\Common_Library.csproj", "{87432D2D-BC68-4FB3-BCC7-58B0DD761F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrvosKliens", "OrvosKliens\OrvosKliens.csproj", "{E4A58EE4-CB08-4C09-BD85-5F9DAA64CFA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsszisztensKliens", "AsszisztensKliens\AsszisztensKliens.csproj", "{C5664825-37E0-4EB2-A684-B0341C49AF43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsszisztensKliens", "AsszisztensKliens\AsszisztensKliens.csproj", "{C5664825-37E0-4EB2-A684-B0341C49AF43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrvosKliens", "Orvos_Kliens\OrvosKliens.csproj", "{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{87432D2D-BC68-4FB3-BCC7-58B0DD761F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87432D2D-BC68-4FB3-BCC7-58B0DD761F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87432D2D-BC68-4FB3-BCC7-58B0DD761F39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4A58EE4-CB08-4C09-BD85-5F9DAA64CFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4A58EE4-CB08-4C09-BD85-5F9DAA64CFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4A58EE4-CB08-4C09-BD85-5F9DAA64CFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4A58EE4-CB08-4C09-BD85-5F9DAA64CFA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5664825-37E0-4EB2-A684-B0341C49AF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5664825-37E0-4EB2-A684-B0341C49AF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5664825-37E0-4EB2-A684-B0341C49AF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5664825-37E0-4EB2-A684-B0341C49AF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

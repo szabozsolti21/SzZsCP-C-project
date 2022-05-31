@@ -22,6 +22,7 @@ namespace AsszisztensKliens
         public MainWindow()
         {
             InitializeComponent();
+            UpdatePatientsListBox();
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs args)

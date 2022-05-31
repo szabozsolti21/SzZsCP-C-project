@@ -11,7 +11,7 @@ namespace AsszisztensKliens.DataProviders
 {
     internal class PatientDataProvider
     {
-        private const string _url = "https://localhost:5000/api/patient";
+        private const string _url = "http://localhost:5000/api/patient";
         public static IEnumerable<Patient> GetPatients()
         {
             using (var client = new HttpClient())
@@ -29,11 +29,11 @@ namespace AsszisztensKliens.DataProviders
             }
         }
 
-        public static void CreatePatient(Patient Patient)
+        public static void CreatePatient(Patient patient)
         {
             using (var client = new HttpClient())
             {
-                var rawData = JsonConvert.SerializeObject(Patient);
+                var rawData = JsonConvert.SerializeObject(patient);
                 var content = new StringContent(rawData, Encoding.UTF8, "application/json");
 
                 var response = client.PostAsync(_url, content).Result;
@@ -44,14 +44,14 @@ namespace AsszisztensKliens.DataProviders
             }
         }
 
-        public static void UpdatePatient(Patient Patient)
+        public static void UpdatePatient(Patient patient)
         {
             using (var client = new HttpClient())
             {
-                var rawData = JsonConvert.SerializeObject(Patient);
+                var rawData = JsonConvert.SerializeObject(patient);
                 var content = new StringContent(rawData, Encoding.UTF8, "application/json");
 
-                var response = client.PutAsync(_url, content).Result;
+                var response = client.PutAsync($"{_url}/{patient.Id}", content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
                     throw new InvalidOperationException(response.StatusCode.ToString());

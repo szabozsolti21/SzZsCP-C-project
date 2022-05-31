@@ -24,5 +24,15 @@ namespace OrvosKliens
         {
             InitializeComponent();
         }
+
+        private void List_SelectionChanged(object sender, SelectionChangedEventArgs args)
+        {
+
+        }
+
+        private void AddPatient_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

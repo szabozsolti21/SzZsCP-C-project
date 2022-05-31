@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\OrvosKliens\App.xaml
-11407045341
+22116246467
 
-5-319868292
+6-1166261830
 193-1891726104
-MainWindow.xaml;
+MainWindow.xaml;PatientWindow.xaml;
 
 False
 

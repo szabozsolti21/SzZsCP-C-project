@@ -1,4 +1,5 @@
 ﻿using Common_Library.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace Orvos_Asszisztens_Szerver.Repositories
             }
         }
 
-        public static Patient GetPatient(int id)
+        public static Patient GetPatient(long id)
         {
             using (var database = new PatientContext())
             {
@@ -41,9 +42,9 @@ namespace Orvos_Asszisztens_Szerver.Repositories
         {
             using (var database = new PatientContext())
             {
-                    database.Patient.Update(patient);
+                database.Patient.Update(patient);
 
-                    database.SaveChanges();    
+                database.SaveChanges();
             }
         }
 
