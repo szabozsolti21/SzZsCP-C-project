@@ -50,7 +50,12 @@ namespace AsszisztensKliens
             }
         }
 
-        private void UpdatePatientsListBox()
+        private void Reload_Click(object sender, RoutedEventArgs args)
+        {
+            UpdatePatientsListBox();
+        }
+
+            private void UpdatePatientsListBox()
         {
             var patients = PatientDataProvider.GetPatients().ToList();
             PatientsListBox.ItemsSource = patients;

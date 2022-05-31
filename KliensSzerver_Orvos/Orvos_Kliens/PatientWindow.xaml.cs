@@ -29,12 +29,11 @@ namespace Orvos_Kliens
             {
                 _patient = patient;
 
-                NameTextBox.Text = _patient.Name;
-                AdressTextBox.Text = _patient.Adress;
-                TAJTextBox.Text = _patient.TAJ;
-                ComplaintTextBox.Text = _patient.Complaint;
+                NameLabel.Content = _patient.Name;
+                AdressLabel.Content = _patient.Adress;
+                TAJLabel.Content = _patient.TAJ;
+                ComplaintLabel.Content = _patient.Complaint;
 
-                CreateButton.Visibility = Visibility.Collapsed;
                 UpdateButton.Visibility = Visibility.Visible;
                 DeleteButton.Visibility = Visibility.Visible;
 
@@ -43,49 +42,26 @@ namespace Orvos_Kliens
             {
                 _patient = new Patient();
 
-                CreateButton.Visibility = Visibility.Visible;
                 UpdateButton.Visibility = Visibility.Collapsed;
                 DeleteButton.Visibility = Visibility.Collapsed;
             }
         }
-        private void CreateButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (ValidatePatient())
-            {
-                _patient.Name = NameTextBox.Text;
-                _patient.Adress = AdressTextBox.Text;
-                _patient.TAJ = TAJTextBox.Text;
-                _patient.Complaint = ComplaintTextBox.Text;
-                _patient.Diagnose = "Unknown";
-                _patient.TimeOfArrival = DateTime.Now;
-
-                PatientDataProvider.CreatePatient(_patient);
-
-                DialogResult = true;
-                Close();
-            }
-        }
-
+        
         private void UpdateButton_Click(object sender, RoutedEventArgs e)
         {
-            if (ValidatePatient())
-            {
-                _patient.Name = NameTextBox.Text;
-                _patient.Adress = AdressTextBox.Text;
-                _patient.TAJ = TAJTextBox.Text;
-                _patient.Complaint = ComplaintTextBox.Text;
+            
+            _patient.Diagnose = DiagnoseTextBox.Text;
+                
+            PatientDataProvider.UpdatePatient(_patient);
 
-
-                PatientDataProvider.UpdatePatient(_patient);
-
-                DialogResult = true;
-                Close();
-            }
+            DialogResult = true;
+            Close();
+            
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Do you really want to delete?", "Question", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("Valóban törölni szeretné a pácienst?", "Question", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 PatientDataProvider.DeletePatient(_patient.Id);
 
@@ -94,47 +70,5 @@ namespace Orvos_Kliens
             }
         }
 
-        private bool ValidatePatient()
-        {
-            if (string.IsNullOrEmpty(NameTextBox.Text))
-            {
-                MessageBox.Show("Name should not be empty.");
-                return false;
-            }
-
-            //Név formátuma (nem lehet whitespace, különleges karakter
-            //if (Ha név nem okés)
-            //{
-            //    MessageBox.Show("TAJ should be 000 000 000");
-            //    return false;
-            //}
-
-            if (string.IsNullOrEmpty(AdressTextBox.Text))
-            {
-                MessageBox.Show("Adress should not be empty.");
-                return false;
-            }
-
-            if (string.IsNullOrEmpty(TAJTextBox.Text))
-            {
-                MessageBox.Show("TAJ should not be empty.");
-                return false;
-            }
-
-            //TAJ formátum 
-            //if (Ha TAJ formatuma nem okés okés)
-            //{
-            //    MessageBox.Show("TAJ should be 000 000 000");
-            //    return false;
-            //}
-
-            if (string.IsNullOrEmpty(ComplaintTextBox.Text))
-            {
-                MessageBox.Show("Complaint should not be empty.");
-                return false;
-            }
-
-            return true;
-        }
     }
 }

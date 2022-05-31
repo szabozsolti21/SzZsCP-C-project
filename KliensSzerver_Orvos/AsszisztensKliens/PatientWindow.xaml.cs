@@ -36,8 +36,9 @@ namespace AsszisztensKliens
                 TAJTextBox.Text = _patient.TAJ;
                 ComplaintTextBox.Text = _patient.Complaint;
 
+
                 CreateButton.Visibility = Visibility.Collapsed;
-                UpdateButton.Visibility = Visibility.Collapsed;
+                UpdateButton.Visibility = Visibility.Visible;
                 DeleteButton.Visibility = Visibility.Visible;
 
             }
@@ -58,7 +59,7 @@ namespace AsszisztensKliens
                 _patient.Adress = AdressTextBox.Text;
                 _patient.TAJ = TAJTextBox.Text;
                 _patient.Complaint = ComplaintTextBox.Text;
-                _patient.Diagnose = "Unknown";
+                _patient.Diagnose = "Ismeretlen";
                 _patient.TimeOfArrival = DateTime.Now;
 
                 PatientDataProvider.CreatePatient(_patient);
@@ -87,7 +88,7 @@ namespace AsszisztensKliens
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Do you really want to delete?", "Question", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("Valóban törölni szeretné a pácienst?", "Question", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 PatientDataProvider.DeletePatient(_patient.Id);
 
@@ -100,7 +101,7 @@ namespace AsszisztensKliens
         {
             if (string.IsNullOrEmpty(NameTextBox.Text))
             {
-                MessageBox.Show("Name should not be empty.");
+                MessageBox.Show("A név mező nem lehet üres!");
                 return false;
             }
 
@@ -113,13 +114,13 @@ namespace AsszisztensKliens
 
             if (string.IsNullOrEmpty(AdressTextBox.Text))
             {
-                MessageBox.Show("Adress should not be empty.");
+                MessageBox.Show("A lakcím mező nem lehet üres!");
                 return false;
             }
 
             if (string.IsNullOrEmpty(TAJTextBox.Text))
             {
-                MessageBox.Show("TAJ should not be empty.");
+                MessageBox.Show("A TAJ szám mező nem lehet üres!");
                 return false;
             }
 
@@ -132,7 +133,7 @@ namespace AsszisztensKliens
 
             if (string.IsNullOrEmpty(ComplaintTextBox.Text))
             {
-                MessageBox.Show("Complaint should not be empty.");
+                MessageBox.Show("A panasz mező nem lehet üres!");
                 return false;
             }
 
