@@ -45,7 +45,7 @@ namespace Orvos_Kliens {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.2.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.5.0")]
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
@@ -60,7 +60,7 @@ namespace Orvos_Kliens {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.2.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.5.0")]
         public static void Main() {
             Orvos_Kliens.App app = new Orvos_Kliens.App();
             app.InitializeComponent();

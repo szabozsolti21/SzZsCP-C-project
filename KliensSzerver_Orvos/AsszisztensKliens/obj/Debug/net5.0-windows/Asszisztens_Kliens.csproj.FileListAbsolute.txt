@@ -26,3 +26,31 @@ C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSze
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\ref\Asszisztens_Kliens.dll
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.pdb
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.genruntimeconfig.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.exe
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.deps.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.runtimeconfig.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.runtimeconfig.dev.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Asszisztens_Kliens.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Common_Library.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\bin\Debug\net5.0-windows\Common_Library.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.csproj.AssemblyReference.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\MainWindow.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\PatientWindow.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\App.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens_MarkupCompile.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens_MarkupCompile.lref
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\MainWindow.baml
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\PatientWindow.baml
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.g.resources
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.GeneratedMSBuildEditorConfig.editorconfig
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.AssemblyInfoInputs.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.AssemblyInfo.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.csproj.CoreCompileInputs.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.csproj.CopyComplete
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\refint\Asszisztens_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\Asszisztens_Kliens.genruntimeconfig.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\AsszisztensKliens\obj\Debug\net5.0-windows\ref\Asszisztens_Kliens.dll

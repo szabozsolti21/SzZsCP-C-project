@@ -26,3 +26,31 @@ C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSze
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\ref\Orvos_Kliens.dll
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.pdb
 C:\Users\zsote\Desktop\Nagyvállalati C#\project\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.genruntimeconfig.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.exe
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.deps.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.runtimeconfig.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.runtimeconfig.dev.json
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Orvos_Kliens.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Common_Library.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\bin\Debug\net5.0-windows\Common_Library.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.csproj.AssemblyReference.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\MainWindow.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\PatientWindow.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\App.g.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens_MarkupCompile.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens_MarkupCompile.lref
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\MainWindow.baml
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\PatientWindow.baml
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.g.resources
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.GeneratedMSBuildEditorConfig.editorconfig
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.AssemblyInfoInputs.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.AssemblyInfo.cs
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.csproj.CoreCompileInputs.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.csproj.CopyComplete
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\refint\Orvos_Kliens.dll
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.pdb
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\Orvos_Kliens.genruntimeconfig.cache
+F:\Egyetemi\NI\SzZsCP-Csharp-project\KliensSzerver_Orvos\Orvos_Kliens\obj\Debug\net5.0-windows\ref\Orvos_Kliens.dll
