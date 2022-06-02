@@ -127,7 +127,7 @@ namespace AsszisztensKliens
 
             if (ValidateTAJ(TAJTextBox.Text) == 2)
             {
-                MessageBox.Show("Helytelen TAJ szám formátum/ (Helyes: 000 000 000)");
+                MessageBox.Show("Helytelen TAJ szám formátum! (Helyes: 000 000 000)");
                 return false;
             }
 
@@ -149,9 +149,9 @@ namespace AsszisztensKliens
                 r = 1;
             }
 
-            var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
+            var regexItem = new Regex("^[a-zA-Z]*$");
 
-            if (regexItem.IsMatch(name))
+            if (!regexItem.IsMatch(name))
             {
                 r = 2;
             }
