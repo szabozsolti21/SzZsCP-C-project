@@ -23,12 +23,12 @@
     },
     "c5664825-37e0-4eb2-a684-b0341c49af43": {
       "ProjectGuid": "c5664825-37e0-4eb2-a684-b0341c49af43",
-      "DisplayName": "AsszisztensKliens",
+      "DisplayName": "Asszisztens_Kliens",
       "ColorIndex": 3
     },
     "1d6b86a2-e574-4f4f-898b-46f85e9eb8fd": {
       "ProjectGuid": "1d6b86a2-e574-4f4f-898b-46f85e9eb8fd",
-      "DisplayName": "OrvosKliens",
+      "DisplayName": "Orvos_Kliens",
       "ColorIndex": 4
     }
   },

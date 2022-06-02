@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1t93QByNob13gxoCenRalU8nK20cU1UxqZeeke2NnP7W9Y80jJwEW2t10n+bkHu4KDyaoRL7sKt1pRoEhcm/lg==",
+  "dgSpecHash": "Rz8L3x3YRmv9rNXSDThRoOPY+jg/1VQBhbHMyKiLoAQMNx2MH9WiNB2BBin3HxKgraAm+EJ67QiL7lKzBukZcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\OrvosKliens.csproj",
+  "projectFilePath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\Orvos_Kliens.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsote\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

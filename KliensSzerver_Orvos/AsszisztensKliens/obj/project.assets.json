@@ -72,9 +72,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
-      "projectName": "AsszisztensKliens",
-      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\AsszisztensKliens.csproj",
+      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\Asszisztens_Kliens.csproj",
+      "projectName": "Asszisztens_Kliens",
+      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\Asszisztens_Kliens.csproj",
       "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\AsszisztensKliens\\obj\\",
       "projectStyle": "PackageReference",

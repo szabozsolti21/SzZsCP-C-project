@@ -72,9 +72,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\OrvosKliens.csproj",
-      "projectName": "OrvosKliens",
-      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\OrvosKliens.csproj",
+      "projectUniqueName": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\Orvos_Kliens.csproj",
+      "projectName": "Orvos_Kliens",
+      "projectPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\Orvos_Kliens.csproj",
       "packagesPath": "C:\\Users\\zsote\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\zsote\\Desktop\\Nagyvállalati C#\\project\\SzZsCP-Csharp-project\\KliensSzerver_Orvos\\Orvos_Kliens\\obj\\",
       "projectStyle": "PackageReference",
