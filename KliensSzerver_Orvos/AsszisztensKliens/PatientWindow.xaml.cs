@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -143,16 +144,39 @@ namespace AsszisztensKliens
         {
             int r = 0;
 
+            if(String.IsNullOrWhiteSpace(name))
+            {
+                r = 1;
+            }
+
+            var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
+
+            if (regexItem.IsMatch(name))
+            {
+                r = 2;
+            }
 
             return r;
             // 0 - helyes név
-            // 1 - üres név mező
-            // 2 - tartalmaz különleges karaktert vagy whitespace-t
+            // 1 - üres vagy whitespace-ből álló mező
+            // 2 - tartalmaz különleges karaktert
         }
 
         private int ValidateTAJ(String taj)
         {
             int r = 0;
+
+            if(String.IsNullOrEmpty(taj))
+            {
+                r = 1;
+            }
+
+            var regexItem = new Regex(@"\d{3}\s\d{3}\s\d{3}");
+
+            if (!regexItem.IsMatch(taj))
+            {
+                r = 2;
+            }
 
 
             return r;
