@@ -4,6 +4,7 @@ Ez a projekt a "Szofverfejlesztés C# nyelven, nagyvállalati környezetben" nev
 Késztette: Szabó Zsolt, Czégény Patrik
 
 A solution 5 projektet tartalmaz:
+
 -Szerver alkalmazás (Orvos_Asszisztens_Szerver): Tárolja és szolgáltatja az adatokat
 
 -Asszisztens kliens (AsszisztensKliens): Új betegeket tud rögzíteni
