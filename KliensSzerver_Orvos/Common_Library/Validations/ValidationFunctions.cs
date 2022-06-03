@@ -28,14 +28,12 @@ namespace Common_Library.ValidationFunctions
 
         public static int ValidateTAJ(String taj)
         {
-            int r = 0;
-
             if (String.IsNullOrWhiteSpace(taj))
             {
                 return 1;
             }
 
-            var regexItem = new Regex(@"\d{3}\s\d{3}\s\d{3}");
+            var regexItem = new Regex(@"\d{3}\s\d{3}\s\d{3}$");
 
             if (!regexItem.IsMatch(taj))
             {
