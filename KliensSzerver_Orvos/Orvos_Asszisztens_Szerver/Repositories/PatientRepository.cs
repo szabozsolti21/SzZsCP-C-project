@@ -14,8 +14,6 @@ namespace Orvos_Asszisztens_Szerver.Repositories
             {
                 var patients = database.Patient.ToList();
 
-
-
                 return patients;
             }
         }

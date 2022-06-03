@@ -83,6 +83,5 @@ namespace Orvos_Kliens
                 Close();
             }
         }
-
     }
 }

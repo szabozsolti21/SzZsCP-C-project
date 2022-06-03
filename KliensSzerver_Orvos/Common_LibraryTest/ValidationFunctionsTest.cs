@@ -78,6 +78,5 @@ namespace Common_LibraryTest
             Assert.AreEqual(expected, ValidationFunctions.ValidateTAJ(taj));
         }
 
-
     }
 }

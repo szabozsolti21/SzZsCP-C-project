@@ -109,7 +109,7 @@ namespace AsszisztensKliens {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Asszisztens_Kliens;component/patientwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Asszisztens_Kliens;V1.0.0.0;component/patientwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PatientWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
