@@ -30,7 +30,22 @@
       "ProjectGuid": "1d6b86a2-e574-4f4f-898b-46f85e9eb8fd",
       "DisplayName": "Orvos_Kliens",
       "ColorIndex": 4
+    },
+    "c805d1b7-d4db-4b02-ab63-d9909d9abdcd": {
+      "ProjectGuid": "c805d1b7-d4db-4b02-ab63-d9909d9abdcd",
+      "DisplayName": "Asszisztens_Kliens.Test",
+      "ColorIndex": 5
+    },
+    "5bc79952-ed36-4bf2-8d7b-d682cba79dbd": {
+      "ProjectGuid": "5bc79952-ed36-4bf2-8d7b-d682cba79dbd",
+      "DisplayName": "Asszisztens_KliensTeszt",
+      "ColorIndex": 6
+    },
+    "d1a52d4a-7d4e-4582-a19b-49c228715e25": {
+      "ProjectGuid": "d1a52d4a-7d4e-4582-a19b-49c228715e25",
+      "DisplayName": "Common_LibraryTest",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 8
 }

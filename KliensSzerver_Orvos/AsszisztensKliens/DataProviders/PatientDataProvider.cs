@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace AsszisztensKliens.DataProviders
 {
@@ -24,8 +25,11 @@ namespace AsszisztensKliens.DataProviders
                     var patients = JsonConvert.DeserializeObject<IEnumerable<Patient>>(rawData);
                     return patients;
                 }
-
-                throw new InvalidOperationException(response.StatusCode.ToString());
+                else
+                {
+                    MessageBox.Show($"Hiba történt! ({response.StatusCode.ToString()})");
+                    return null;
+                }
             }
         }
 
@@ -39,7 +43,7 @@ namespace AsszisztensKliens.DataProviders
                 var response = client.PostAsync(_url, content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
-                    throw new InvalidOperationException(response.StatusCode.ToString());
+                    MessageBox.Show($"Hiba történt! ({response.StatusCode.ToString()})");
                 }
             }
         }
@@ -54,7 +58,7 @@ namespace AsszisztensKliens.DataProviders
                 var response = client.PutAsync($"{_url}/{patient.Id}", content).Result;
                 if (!response.IsSuccessStatusCode)
                 {
-                    throw new InvalidOperationException(response.StatusCode.ToString());
+                    MessageBox.Show($"Hiba történt! ({response.StatusCode.ToString()})");
                 }
             }
         }
@@ -66,7 +70,7 @@ namespace AsszisztensKliens.DataProviders
                 var response = client.DeleteAsync($"{_url}/{id}").Result;
                 if (!response.IsSuccessStatusCode)
                 {
-                    throw new InvalidOperationException(response.StatusCode.ToString());
+                    MessageBox.Show($"Hiba történt! ({response.StatusCode.ToString()})");
                 }
             }
         }

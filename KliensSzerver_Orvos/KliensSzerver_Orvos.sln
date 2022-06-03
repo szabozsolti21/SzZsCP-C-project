@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asszisztens_Kliens", "Asszi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orvos_Kliens", "Orvos_Kliens\Orvos_Kliens.csproj", "{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_LibraryTest", "Common_LibraryTest\Common_LibraryTest.csproj", "{D1A52D4A-7D4E-4582-A19B-49C228715E25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6B86A2-E574-4F4F-898B-46F85E9EB8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A52D4A-7D4E-4582-A19B-49C228715E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A52D4A-7D4E-4582-A19B-49C228715E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A52D4A-7D4E-4582-A19B-49C228715E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A52D4A-7D4E-4582-A19B-49C228715E25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

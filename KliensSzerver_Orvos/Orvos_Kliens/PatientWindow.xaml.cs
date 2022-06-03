@@ -49,14 +49,27 @@ namespace Orvos_Kliens
         
         private void UpdateButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            _patient.Diagnose = DiagnoseTextBox.Text;
-                
-            PatientDataProvider.UpdatePatient(_patient);
+            if(ValidatePatient())
+            {
+                _patient.Diagnose = DiagnoseTextBox.Text;
 
-            DialogResult = true;
-            Close();
-            
+                PatientDataProvider.UpdatePatient(_patient);
+
+                DialogResult = true;
+
+                Close();
+            }
+        }
+
+        private bool ValidatePatient()
+        {
+            if (String.IsNullOrEmpty(DiagnoseTextBox.Text))
+            {
+                MessageBox.Show("A diagnózis mező nem lehet üres!");
+                return false;
+            }
+
+            return true;
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
@@ -66,6 +79,7 @@ namespace Orvos_Kliens
                 PatientDataProvider.DeletePatient(_patient.Id);
 
                 DialogResult = true;
+
                 Close();
             }
         }

@@ -34,12 +34,12 @@ namespace Common_Library.Models
 
         public override string ToString()
         {
-            return $"{Name} \n\n" +
-                   $"\tLakcím: {Adress} \n" +
-                   $"\tTAJ szám: {TAJ} \n" +
-                   $"\tPanasz: {Complaint} \n" +
-                   $"\tDiagnózis: {Diagnose} \n" +
-                   $"\tBejelentkezés ideje: {TimeOfArrival}";
+            return $"Név:\t{Name}\n\n" +
+                   $"Lakcím:\t\t\t{Adress}\n" +
+                   $"TAJ szám:\t\t{TAJ}\n" +
+                   $"Bejelentkezés ideje:\t{TimeOfArrival}\n" +
+                   $"Panasz:\t\t\t{Complaint}\n" +
+                   $"Diagnózis:\t\t{Diagnose}\n";
         }
 
     }
